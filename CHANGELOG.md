@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.50.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.49.0...v0.50.0) (2024-03-16)
+
+
+### Features
+
+* **vm:** add support for `disconnected` attribute in network interface ([#1129](https://github.com/bpg/terraform-provider-proxmox/issues/1129)) ([11ca880](https://github.com/bpg/terraform-provider-proxmox/commit/11ca880f28b68c7beec1feb7e9dc7a6fbf00bf40))
+
+
+### Bug Fixes
+
+* **doc:** fix `sudo` configuration steps ([#1132](https://github.com/bpg/terraform-provider-proxmox/issues/1132)) ([0c6ecb8](https://github.com/bpg/terraform-provider-proxmox/commit/0c6ecb85ed0cc236db13874f87bf5f1b17c6c933))
+
+
+### Miscellaneous
+
+* **deps:** update golang.org/x/exp digest (814bf88 → c7f7c64) ([#1130](https://github.com/bpg/terraform-provider-proxmox/issues/1130)) ([ab51262](https://github.com/bpg/terraform-provider-proxmox/commit/ab512622f7f21bbfcbae48793cf9d0b24af5c2d5))
+* **vm:** refactoring: extract network device code from vm.go ([#1127](https://github.com/bpg/terraform-provider-proxmox/issues/1127)) ([29b5438](https://github.com/bpg/terraform-provider-proxmox/commit/29b5438faf7c1d09291c549516ac359952e2a87b))
+
 ## [0.49.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.48.4...v0.49.0) (2024-03-15)
 
 
